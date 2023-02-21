@@ -30,9 +30,10 @@
 ## Voorbereiding
 
 > 1. Clone het project [Computer Winkel](https://github.com/NOVA-college-Haarlem/computer-winkel) van het Nova College Github Repository.
-> 2. Importeer de sql bestanden in een computer-winkel database
-> 3. Maak de ids in elke tabel een primary key
-> 4. Maak manufacturer in products al seen foreign key
+> 2. Maak een database genaamd `computerwinkel` met behulp van PHPMyAdmin.
+> 3. Importeer de sql bestanden in de database
+> 4. Maak de ids in elke tabel een primary key
+> 5. Maak manufacturer in products al seen foreign key
 
 ## Opdrachten
 
