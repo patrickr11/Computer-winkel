@@ -3,7 +3,7 @@
 ## Installatie
 
 > 1. Fork dit project naar je eigen Github repositories
-> 2. Clone dit project naar een lokale (niet Onedrive) map.
+> 2. Clone dit project naar een lokale (niet Onedrive) map met `git clone ....`
 > 3. Open het project in VS Code
 > 4. Open een terminal en type `docker compose up`
 > 5. Open je browser en ga naar http://localhost/
