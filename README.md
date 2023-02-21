@@ -12,7 +12,7 @@
 ## Database
 
 > 1. Maak een database genaamd `computerwinkel` met behulp van PHPMyAdmin.
-> 2. Importeer of kopieer de `manufacturers.sql` gegevens in de database.
+> 2. Importeer of kopieer de [manufacturers.sql](sql/manufacturers.sql) gegevens in de database.
 
 
 ## Database connectie
@@ -21,7 +21,7 @@
 > 2. Maak eerst database connectie, gebruik de code van Moodle of [Github Cheatsheet](https://github.com/NOVA-college-Haarlem/Mysqli-cheatsheet)
 
 ## Toon de gegevens
-> 1. In het bestand manufacturers_index.php schrijf je code om een de database connectie te *importeren*.
+> 1. In het bestand [manufacturers_index.php](site/manufacturers_index.php) schrijf je code om een de database connectie te *importeren*.
 > 2. Maak een iteratie met een foreach loop om zo de gegevens in de browser te tonen.
 > 3. Laat het resultaat aan de docent zien.
 
@@ -31,9 +31,9 @@
 
 > 1. Clone het project [Computer Winkel](https://github.com/NOVA-college-Haarlem/computer-winkel) van het Nova College Github Repository.
 > 2. Maak een database genaamd `computerwinkel` met behulp van PHPMyAdmin.
-> 3. Importeer de sql bestanden in de database
+> 3. Importeer de sql bestanden, [manufacturers.sql](sql/manufacturers.sql) en [products.sql](sql/products.sql) in de database
 > 4. Maak de ids in elke tabel een primary key
-> 5. Maak manufacturer in products al seen foreign key
+> 5. Maak manufacturer in products al een foreign key gerelateerd aan id in manufacturer
 
 ## Opdrachten
 
