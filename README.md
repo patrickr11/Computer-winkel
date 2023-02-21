@@ -17,7 +17,7 @@
 
 ## Database connectie
 
-> 1. Maak een bestand genaamd `database.php`.
+> 1. Maak een bestand genaamd [database.php](site/database.php).
 > 2. Maak eerst database connectie, gebruik de code van Moodle of [Github Cheatsheet](https://github.com/NOVA-college-Haarlem/Mysqli-cheatsheet)
 
 ## Toon de gegevens
