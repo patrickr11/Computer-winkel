@@ -1,11 +1,13 @@
 version: '3.8'
 services:
   web:
-    image: php:8.0-apache
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - ./site:/var/www/html
     ports:
-      - "80:80"
+      - "880:80"
     depends_on:
       - mariadb
   mariadb:
@@ -17,7 +19,7 @@ services:
       MYSQL_PASSWORD: password
       MYSQL_ROOT_HOST: '%'
     ports:
-      - "3306:3306"
+      - "3307:3306"
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
