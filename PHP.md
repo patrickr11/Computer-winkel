@@ -11,17 +11,17 @@
 
 ## Opdracht 2 - Database
 
-> 1. Maak een database genaamd `computerwinkel` met behulp van PHPMyAdmin.
+> 1. Maak gebruik van de database genaamd `computerstore` in PHPMyAdmin.
 > 2. Importeer of kopieer de [manufacturers.sql](sql/manufacturers.sql) gegevens in de database.
 
 
 ## Opdracht 3 - Database connectie
 
-> 1. Maak een bestand genaamd [database.php](site/database.php).
+> 1. Maak een bestand genaamd [database.php](www/database.php).
 > 2. Maak eerst database connectie, gebruik de code van Moodle of [Github Cheatsheet](https://github.com/NOVA-college-Haarlem/Mysqli-cheatsheet)
 
 ## Opdracht 4 - Toon de gegevens
-> 1. In het bestand [manufacturers_index.php](site/manufacturers_index.php) schrijf je code om een de database connectie te *importeren*.
+> 1. In het bestand [manufacturers_index.php](www/manufacturers_index.php) schrijf je code om een de database connectie te *importeren*.
 > 2. Maak een iteratie met een foreach loop om zo de gegevens in de browser te tonen.
 > 3. Laat het resultaat aan de docent zien.
 

@@ -3,26 +3,28 @@ services:
   web:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./.docker/web/Dockerfile
     volumes:
-      - ./site:/var/www/html
+      - ./www:/var/www/html
     ports:
-      - "880:80"
+      - "80:80"
     depends_on:
       - mariadb
   mariadb:
     image: mariadb:10.4
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: database
+      MYSQL_DATABASE: computerstore
       MYSQL_USER: user
       MYSQL_PASSWORD: password
       MYSQL_ROOT_HOST: '%'
     ports:
       - "3307:3306"
-
+    volumes:
+      - dbdata:/var/lib/mysql
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin:latest
+    build:
+      dockerfile: ./.docker/phpmyadmin/Dockerfile
     ports:
       - 8000:80
     environment:
@@ -30,3 +32,8 @@ services:
       - PMA_HOST=mariadb
     depends_on:
       - mariadb
+volumes:
+  dbdata:
+
+
+
